@@ -22,6 +22,7 @@ public class Win {
         }
         return result;
     }
+
     public static boolean check(int[][] board) {
         boolean result = false;
         for (int j = 0; j < board.length; j++) {
